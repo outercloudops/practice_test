@@ -35,4 +35,4 @@ for fruitica in fruits:
     for vegeta in veggies:
         print(f"The first data type is a {type(fruitica)} and the 2nd data type is {type(vegeta)}")
         
-!!!!!!!!!!
+# making 2nd commit with comment via github.dev while using linux mint
