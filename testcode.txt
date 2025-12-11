@@ -1,0 +1,9 @@
+#test/practice code using nano on mint terminal
+print("Hello, World!")
+print("I am typing up practice code for learning purposes.")
+
+x = 1
+y = 2
+z = x + y
+print(f"x + y + z = {z+z}")
+

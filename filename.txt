@@ -1,0 +1,7 @@
+Hello, World! Now, I am editing this file using nano on the Linux Mint terminal.
+
+I like this better than vi so far. It's been a while. Files was created 
+running the cat > filename.txt and typing in the content interactively. 
+Another way is to use echo "Hello, World!" > filename.txt as a single 
+command. Will do that now. Bye, World.
+

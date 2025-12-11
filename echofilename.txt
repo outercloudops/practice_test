@@ -1,0 +1,9 @@
+using cat > echofilename.txt to see what happens
+
+it completely overwrote what was previously there. 
+
+new test line
+new test line
+using the or adds in new txt after what is previously there. Does it on a new line.
+testing >> with cat to see if it appends or overwrites
+holy crap it does the same thing as echo >>. That's wild. Gotta hit Enter to confirm it before exiting.
