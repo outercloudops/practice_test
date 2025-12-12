@@ -85,4 +85,7 @@ while user_input.title() != founding_document[0]: #title will capitalize each fi
     user_input = input("Answer: ")
 print("Correct. You're a confirmed Tier 1 American.")
 
-#this is the correct version for the idea. will run 4th commit
+#this is the correct version for the idea. 
+#additional note is that the remainder when using % or modulus for the cycling of responses is saying how much of the index is used AND where we are in the index
+#reaching the final response in this case would have a remainder of 0. no responses left after this as well as going back to the first response. 
+#5th commit
