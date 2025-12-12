@@ -82,10 +82,10 @@ i = 0 #set variable in order to set up a cycle of responses
 while user_input.title() != founding_document[0]: #title will capitalize each first letter of the response to match the correct numbered value in the tuple/set
     print(responses[i]) #to take from the index
     i = (i + 1) % len(responses) #% used to cycle through remaining of all responses. will loop once end reached
-    user_input = input("Answer: ")
+    user_input = input("Answer: ") #what appears after the initial initial input. Answer: will show up from the 2nd input onward until correct
 print("Correct. You're a confirmed Tier 1 American.")
 
 #this is the correct version for the idea. 
 #additional note is that the remainder when using % or modulus for the cycling of responses is saying how much of the index is used AND where we are in the index
 #reaching the final response in this case would have a remainder of 0. no responses left after this as well as going back to the first response. 
-#5th commit
+#6th commit
