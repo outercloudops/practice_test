@@ -56,3 +56,33 @@ for founding_fathers in names:
         print(founding_fathers)
 
 #3rd commit for additional practice with if and else conditionals
+
+# up next is a set of loops and conditionals using a tuple. I want to create something that gives multiple responses for incorrect answers and one for the correct one#
+
+founding_document = ("Articles Of Confederation", "Declaration Of Independence", "U.S. Constitution")
+user_input = input("The founding documents of the United States are the Declaration of Independence, the U.S. Constitution, and?: ")
+while user_input.title() != :
+    print("Wrong. Try again.")
+    if user_input.title() != f"{founding_document[0]}":
+    print("Try again")
+elif user_input.title() != f"{founding_document[0]}":
+    print("You some kind of redcoat? Try again.")
+elif user_input.title() != f"{founding_document[0]}":
+    print("I bet King George would love you. Again!")
+elif user_input.title() != f"{founding_document[0]}":
+    print("Bruh")
+user_input = input("Correct. You're a confirmed Tier 1 American.")
+
+# this was my first attempt on the idea. However, it is incorrect. Below will be the correct way to do it #
+
+founding_document = ("Articles Of Confederation", "Declaration Of Independence", "U.S. Constitution")
+responses = ["Wrong. Try again.", "Try again.", "You some kind of redcoat? Try again.", "I bet King George would love you. Again!", "Bruh", "My God. I can't believe what I'm seeing"]
+user_input = input("The founding documents of the United States are the Declaration of Independence, the U.S. Constitution, and?: ")
+i = 0 #set variable in order to set up a cycle of responses
+while user_input.title() != founding_document[0]: #title will capitalize each first letter of the response to match the correct numbered value in the tuple/set
+    print(responses[i]) #to take from the index
+    i = (i + 1) % len(responses) #% used to cycle through remaining of all responses. will loop once end reached
+    user_input = input("Answer: ")
+print("Correct. You're a confirmed Tier 1 American.")
+
+#this is the correct version for the idea. will run 4th commit
